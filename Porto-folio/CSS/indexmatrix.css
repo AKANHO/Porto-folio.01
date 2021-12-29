@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#start{
+   
+    border: black solid;
+    width: 900px;
+    text-align: justify;
+    margin: auto;
+    padding: 1.5%;
+
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    border-width: 50%;
+    height: 25px;
+    border-radius:3px springgreen;
+    font-size: 1.3em;
+    font-style: unset;
+    font-weight:bolder;
+    
+}
+
+header nav li
+{
+    margin-right: 20px;
+    padding-bottom: 5%;
+    text-decoration: solid;
+   color:rgb(29, 219, 233);
+
+}
+
+nav ul{
+    list-style-type: none;
+    color: rgb(255, 113, 19);
+    font-size: 1.2em;
+}
+
+header
+{ 
+    background: url(images/dune\ de\ plage.jpg) no-repeat;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    
+   font-size: 15px;
+   color: white;
+}
+body{
+    background: rgb(241, 241, 161);
+}
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+    align-content: space-between;
+    bottom: initial;
+    margin-right: 5%;
+}
+
+section article p{
+    font-size: 0,8px;
+    background-color: rgb(232, 247, 248);
+    box-shadow: 1px 2px 5px #1c1a19;
+    margin: auto;
+    padding: 2%;
+}
+aside{
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 1px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    margin:10px;
+    color: rgb(234, 240, 245);
+    align-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    font-size: 0.9em;
+}
+
+#affiche_personalisé{
+    text-align: center;
+} 
+
+aside img{
+    margin-right: 5px;
+}
+
+
+.flottant {
+    float: left
+}
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+@media{
+    
+}

@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('Amble-Regular-webfont.eot');
+    src: url('Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('Amble-Regular-webfont.woff2') format('woff2'), url('Amble-Regular-webfont.woff') format('woff'), url('Amble-Regular-webfont.ttf') format('truetype'), url('Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header
+{
+    font-family: "ambleregular", "Courier New", Courier, monospace;color: rgb(73, 56, 49);
+    border: 2px;
+    text-align: justify;
+    background: url(images/dune\ de\ plage.jpg) no-repeat;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    display: flex;
+   font-size: 15px;
+   color: white;
+}
+/* pour changer le fond d'une page avec de l'image faut procéder avec (body
+{
+    background-image: url("neige.png");
+}    )*/
+h1
+{
+    border-radius: 13px ;
+    box-shadow: 6px 6px 6px 6px;
+    text-shadow:brown;
+    padding: 3px;
+    
+}
+
+
+/* faut que je m'améliore, la balise em et les attributs class et id */
+
+h2 {
+    color: chocolate;
+}
+
+
+p {
+    font-family: "ambleregular", "Courier New", Courier, monospace;color: rgb(73, 56, 49);
+    
+    text-align: justify;
+    border:chartreuse solid;
+    border-radius:10px ;
+    padding:12px;
+    margin: 12px;
+    
+    min-width: 900px;
+    width: 900px;
+    text-align: justify;
+    margin: auto;
+    padding: 1.5%;
+}
+
+
+article{
+    font-family: "ambleregular", "Courier New", Courier, monospace;color: rgb(73, 56, 49);
+    
+    text-align: justify;
+    border:chartreuse solid;
+    border-radius:10px ;
+    padding:12px;
+    margin: 12px;
+    
+    min-width: 900px;
+    width: 900px;
+    text-align: justify;
+    margin: auto;
+    padding: 1.5%;
+}
+
+
+.flottant 
+{
+    float: left
+}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+/*pour insérer une image en css, il faut au préalable mettre l'attribut class avec le code d'insertion de l'image dans la page html*/
+a:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: #FFCC66;
+}
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;
+}
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: rgb(40, 231, 15); /* Appliquer une couleur grise */
+}
+#conteneur
+{
+    display: flex;
+  flex-direction: column-reverse;
+  background:rgb(199, 185, 212);
+  border-color: chartreuse;
+}
+
+
+.element:nth-child(1)
+{
+    background-color: cyan;
+    border:12px 0.9px darkgreen;
+
+}
+
+.element:nth-child(2)
+{
+background-color: darkorange;
+align-self: flex-end;
+flex: 10;
+}
+
+
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.element:nth-child(3) /* On prend le deuxième bloc élément */
+{
+    background-color: blue;
+    align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+    flex: 18;
+}
+
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* ... */
